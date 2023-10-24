@@ -7,7 +7,7 @@ function Home() {
   const { books } = useBookContext();
   return (
     <div>
-      <div className="text-center mt-4">
+      <div className="text-center">
         <h1>Book Inventory Management</h1>
       </div>
       <div className="flex justify-between items-center w-full max-w-[1380px] px-5 md:px-10 mx-auto  ">
